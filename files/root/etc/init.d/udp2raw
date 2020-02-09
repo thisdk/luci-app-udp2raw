@@ -88,7 +88,7 @@ validate_server_section() {
 		'raw_mode:or("faketcp", "udp", "icmp"):faketcp' \
 		'key:string' \
 		'cipher_mode:or("aes128cbc", "xor", "none"):aes128cbc' \
-		'auth_mode:or("md5", "crc32", "simple", "none"):md5' \
+		'auth_mode:or("hmac_sha1", "md5", "crc32", "simple", "none"):md5' \
 		'auto_rule:bool:1' \
 		'keep_rule:bool:0' \
 		'seq_mode:range(0,4)' \
