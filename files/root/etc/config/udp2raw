@@ -13,4 +13,4 @@ config servers 'default'
 	option cipher_mode 'aes128cbc'
 	option auth_mode 'md5'
 	option auto_rule '1'
-
+	option fix_gro '0'
